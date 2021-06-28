@@ -37,6 +37,8 @@ TF-IDF 可以分成兩個部分：**TF 詞頻**、**IDF 逆向文件頻續**
 
 ![image](https://miro.medium.com/max/166/1*1HNw7mmXnA_BqRt0r2LvPg.png)
 
+[來源](https://chih-sheng-huang821.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E6%87%89%E7%94%A8-%E5%9E%83%E5%9C%BE%E8%A8%8A%E6%81%AF%E5%81%B5%E6%B8%AC-%E8%88%87-tf-idf%E4%BB%8B%E7%B4%B9-%E5%90%AB%E7%AF%84%E4%BE%8B%E7%A8%8B%E5%BC%8F-2cddc7f7b2c5)
+
 由公式可以得知「詞」在越多「文件」中出現代表，相對應的 idf 會比較小
 
 ### 計算 TF-IDF：
@@ -48,6 +50,8 @@ TF-IDF 就是透過 TF 和 IDF 算每一個「詞」對每一篇「文件」的�
 假設「詞 t」很常出現在「文件 d」，那 tft,d 會大，相對的「詞 t」很少出現在其他「文件」中，idft 就也會大，所以整體 scoret,d 也會大
 
 ![image](https://miro.medium.com/max/700/1*Z4jV6Bfu4T1eEj5f7UkKMQ.png)
+
+[來源](https://chih-sheng-huang821.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E6%87%89%E7%94%A8-%E5%9E%83%E5%9C%BE%E8%A8%8A%E6%81%AF%E5%81%B5%E6%B8%AC-%E8%88%87-tf-idf%E4%BB%8B%E7%B4%B9-%E5%90%AB%E7%AF%84%E4%BE%8B%E7%A8%8B%E5%BC%8F-2cddc7f7b2c5)
 
 ## 程式碼
 
